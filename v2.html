@@ -26,10 +26,10 @@ label.b{position:relative;overflow:hidden}
 #bar button{flex:1;padding:10px 2px;font-size:13px}
 #sheet{position:fixed;left:0;right:0;bottom:calc(58px + env(safe-area-inset-bottom,0px));max-height:55vh;overflow:hidden;flex-direction:column;background:var(--card);border-top:2px solid var(--ac);padding:0;z-index:7;display:none;font-size:17px;line-height:1.8;box-shadow:0 -6px 20px #0003}
 #out{white-space:pre-wrap;overflow:auto;padding:4px 16px 14px;flex:1;min-height:0}#sh{display:flex;justify-content:space-between;align-items:center;padding:6px 12px;border-bottom:1px solid var(--bd);font-size:14px;color:var(--mut)}
-#x{padding:4px 14px}#st{font-size:12px;color:var(--mut);padding:3px 12px;text-align:center}#st:empty{display:none}#selb{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(70px + env(safe-area-inset-bottom,0px));z-index:8;display:none}#selb button{box-shadow:0 4px 14px #0005;padding:10px 16px}.note{font-size:.8em;border:1px dashed var(--ac);border-radius:8px;padding:6px 10px;margin:6px 0;white-space:pre-wrap;font-family:system-ui,'Noto Serif Bengali',sans-serif}.note b{color:var(--ac)}.nx{float:right;cursor:pointer;padding:0 6px}#gbar{display:none;font-size:13px;padding:6px 12px;background:var(--ac);color:#fff;align-items:center;justify-content:space-between;gap:8px}#gbar button{padding:4px 10px;font-size:13px}#gbar .p{background:#fff;color:var(--ac)}#pbar{display:none;font-size:12px;padding:4px 12px;background:var(--card);border-bottom:1px solid var(--bd);align-items:center;justify-content:space-between;gap:8px}#pbar button{padding:2px 10px;font-size:12px}
+#x{padding:4px 14px}#st{font-size:12px;color:var(--mut);padding:3px 12px;text-align:center}#st:empty{display:none}#selb{gap:6px;position:fixed;left:50%;transform:translateX(-50%);bottom:calc(70px + env(safe-area-inset-bottom,0px));z-index:8;display:none}#selb button{box-shadow:0 4px 14px #0005;padding:10px 16px}.os{font-size:.85em;border-left:3px solid var(--mut);padding:4px 10px;margin:4px 0;font-family:Georgia,serif;white-space:pre-wrap}.note{font-size:.8em;border:1px dashed var(--ac);border-radius:8px;padding:6px 10px;margin:6px 0;white-space:pre-wrap;font-family:system-ui,'Noto Serif Bengali',sans-serif}.note b{color:var(--ac)}.nx{float:right;cursor:pointer;padding:0 6px}#gbar{flex-wrap:wrap}#gbar a.gl{color:#fff;border:1px solid #fff;border-radius:8px;padding:3px 9px;font-size:13px;text-decoration:none;white-space:nowrap}#gbar{display:none;font-size:13px;padding:6px 12px;background:var(--ac);color:#fff;align-items:center;justify-content:space-between;gap:8px}#gbar button{padding:4px 10px;font-size:13px}#gbar .p{background:#fff;color:var(--ac)}#pbar{display:none;font-size:12px;padding:4px 12px;background:var(--card);border-bottom:1px solid var(--bd);align-items:center;justify-content:space-between;gap:8px}#pbar button{padding:2px 10px;font-size:12px}
 .blk{margin-bottom:1.1em}.blk p{margin:0 0 .5em}
 .tr{border-left:3px solid var(--ac);padding-left:10px}.tr:empty{display:none}.noauto .tr{display:none}
-.t{border-bottom:1px dotted var(--ac)}.e,.x{color:var(--ac)}.t,.e,.x,.k,.f{cursor:pointer}.bnonly .blk.done .o{display:none}.bnonly .blk.done.show .o{display:block;opacity:.7;font-size:.9em}.ob{display:none;font-size:.7em;border:1px solid var(--ac);color:var(--ac);border-radius:8px;padding:0 7px;margin-left:6px;cursor:pointer;font-family:system-ui,sans-serif}.bnonly .ob{display:inline}#tip{position:fixed;display:none;background:var(--fg);color:var(--bg);padding:6px 11px;border-radius:10px;font-size:15px;line-height:1.5;z-index:10;max-width:80vw;white-space:pre-line;font-family:system-ui,'Noto Serif Bengali',sans-serif;box-shadow:0 4px 14px #0004}.tr.ai::before{content:'✨ ';font-size:.8em}.pin{font-size:.72em;background:var(--ac);color:#fff;border-radius:8px;padding:1px 7px;margin-left:4px;white-space:nowrap;font-family:system-ui,sans-serif}.e{border-bottom:1px dashed var(--ac)}.k{color:var(--ac);font-weight:600}.f{color:var(--ac)}
+.t{border-bottom:1px dotted var(--ac)}.e,.x{color:var(--ac)}.t,.e,.x,.k,.f{cursor:pointer}.bnonly .blk.done .o{display:none}.bnonly .blk.done.show .o{display:block;opacity:.7;font-size:.9em}.ob{display:none;font-size:.7em;border:1px solid var(--ac);color:var(--ac);border-radius:8px;padding:0 7px;margin-left:6px;cursor:pointer;font-family:system-ui,sans-serif}.bnonly .ob{display:inline}#tip .tipb{margin-top:6px;font-size:13px;padding:3px 10px;background:var(--bg);color:var(--fg);border:0;border-radius:8px}#tip{position:fixed;display:none;background:var(--fg);color:var(--bg);padding:6px 11px;border-radius:10px;font-size:15px;line-height:1.5;z-index:10;max-width:80vw;white-space:pre-line;font-family:system-ui,'Noto Serif Bengali',sans-serif;box-shadow:0 4px 14px #0004}.tr.ai::before{content:'✨ ';font-size:.8em}.pin{font-size:.72em;background:var(--ac);color:#fff;border-radius:8px;padding:1px 7px;margin-left:4px;white-space:nowrap;font-family:system-ui,sans-serif}.e{border-bottom:1px dashed var(--ac)}.k{color:var(--ac);font-weight:600}.f{color:var(--ac)}
 #gt,.gi{width:100%;font:inherit;font-size:16px;background:var(--bg);color:var(--fg);border:1px solid var(--bd);border-radius:8px;padding:8px;margin:8px 0}
 #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(72px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:14px;z-index:9;display:none}
 @media(min-width:760px){#view.auto{max-width:1100px}.auto .blk{display:grid;grid-template-columns:1fr 1fr;gap:22px}.bnonly.auto .blk.done{display:block}}
@@ -39,7 +39,7 @@ label.b{position:relative;overflow:hidden}
  <button id="prev" disabled>◀</button><input id="pg" type="number" min="1" value="1" disabled><span id="tot"></span><button id="next" disabled>▶</button>
  <span class="sp"></span><button id="sm">A−</button><button id="lg">A+</button>
 </header>
-<div id="st"></div><div id="gbar"><span id="gtxt">ChatGPT-র উত্তর কপি করেছেন?</span><span><button class="p" id="gsend">💬 ChatGPT-তে পাঠান</button><button class="p" id="gpaste">📥 পেস্ট করে সেভ</button> <button id="gx">✕</button></span></div><div id="pbar"><span id="pbt"></span><button id="pbx">থামান</button></div>
+<div id="st"></div><div id="gbar"><span id="gtxt">ChatGPT-র উত্তর কপি করেছেন?</span><span><button class="p" id="gsend">💬 ChatGPT-তে পাঠান</button><a id="gapp" class="gl" href="#">📱 অ্যাপ খুলুন</a> <a id="gweb" class="gl" href="#" target="_blank" rel="noopener">🌐 ব্রাউজারে</a> <button class="p" id="gpaste">📥 পেস্ট করে সেভ</button> <button id="gx">✕</button></span></div><div id="pbar"><span id="pbt"></span><button id="pbx">থামান</button></div>
 <div id="view"><div class="hello">📖<br>ফোন থেকে PDF বা EPUB বই খুলুন।<br>প্রতিটি অনুচ্ছেদের নিচে নিজে থেকেই বাংলা অনুবাদ আসবে।<br>শুধু বাংলা দেখাবে। কোথাও বুঝতে অসুবিধা হলে সেই শব্দে ট্যাপ করুন, ইংরেজিটা পাশে চলে আসবে। পুরো অনুচ্ছেদে ট্যাপ করলে মূল লেখা আসবে।</div></div>
 <div id="sheet"><div id="sh"><span>বন্ধ করতে ✕ চাপুন</span><button id="x">✕</button></div><div id="out"></div></div>
 <div id="bar">
@@ -48,7 +48,7 @@ label.b{position:relative;overflow:hidden}
  <button id="bGl">🧠 সেটিং</button>
  <button id="bOff">⬇ অফলাইন</button>
  <button id="bGpt">💬 GPT</button>
-</div><div id="selb"><button class="p" id="selbtn">💬 এই অংশ ChatGPT-কে জিজ্ঞাসা</button></div><div id="toast"></div><div id="tip"></div>
+</div><div id="selb"><button class="p" id="selbtn">💬 ChatGPT-কে জিজ্ঞাসা</button><button id="seladd">➕ শব্দকোষে</button></div><div id="toast"></div><div id="tip"></div>
 <script>/**
  * @licstart The following is the entire license notice for the
  * JavaScript code in this page
@@ -316,7 +316,7 @@ async function tipFull(x,i,para,w){
  if(lat(para)>bn(para)){
   let b=null,tag='',scope=para,seg=null;
   const pr=await pget('pa2:'+hk(para));
-  if(Array.isArray(pr)){const h=pr.find(a=>a[0]===x)||pr.find(a=>bst(a[0]).length>1&&bst(a[0])===bst(x));if(h&&h[1])b=String(h[1])}
+  if(Array.isArray(pr)){const h=pr.find(a=>a[0]===x)||pr.find(a=>bst(a[0]).length>1&&bst(a[0])===bst(x));if(h&&h[1]&&inPara(String(h[1]),para))b=String(h[1])}
   if(!b){
    const sg=await pget('pa:'+hk(para));
    if(Array.isArray(sg))seg=sg.find(g=>g.bn.includes(x))||sg.find(g=>(g.bn.match(/[\u0980-\u09FF\u200c\u200d]+/g)||[]).some(a=>bscore(a,x)>=0.6))||null;
@@ -326,10 +326,10 @@ async function tipFull(x,i,para,w){
   if(!b){try{b=await alignFwd(x,scope)}catch(e){}if(b)tag=' (অনুমান)'}
   if(!b&&scope!==para){b=findBook(cands,para);if(b)tag=' (অনুমান)'}
   if(!b){b=seg?posIn(x,seg.bn,scope):posGuess(w,para);if(b)tag=' (আনুমানিক)'}
-  if(!b&&!dict)return x+' → ইন্টারনেট নেই, এই শব্দ আগে দেখা হয়নি';
-  return x+' → বইয়ের শব্দ: '+(b||'—')+tag+(dict&&(!b||dict.toLowerCase()!==b.toLowerCase())?'\nঅভিধান: '+dict:'')+(!i?'\n(ইন্টারনেট নেই)':'');
+  if(!b&&!dict)return {t:x+' → ইন্টারনেট নেই, এই শব্দ আগে দেখা হয়নি',b:null};
+  return {t:x+' → বইয়ের শব্দ: '+(b||'—')+tag+(dict&&(!b||dict.toLowerCase()!==b.toLowerCase())?'\nঅভিধান: '+dict:'')+(!i?'\n(ইন্টারনেট নেই)':''),b};
  }
- return i?x+' → '+dict:x+' → ইন্টারনেট নেই, এই শব্দ আগে দেখা হয়নি';
+ return {t:i?x+' → '+dict:x+' → ইন্টারনেট নেই, এই শব্দ আগে দেখা হয়নি',b:null};
 }
 async function prefetchWords(hs){
  const tmp=document.createElement('div'),set=new Set();
@@ -384,16 +384,18 @@ const saveDec=()=>ls.set('dec3',JSON.stringify(dec));
 auto=ls.get('auto')!=='0';
 const esc=x=>x.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const rx=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-const saveGl=()=>ls.set('gl',JSON.stringify(gl));
+let glRe=null,gver=+(ls.get('gver')||0);
+const saveGl=()=>{glRe=null;ls.set('gl',JSON.stringify(gl))};
+let glu=ls.get('glu')||'',glt=+ls.get('glt')||0,webKeys=new Set();try{webKeys=new Set(JSON.parse(ls.get('glwk')||'[]'))}catch(e){}
 function toast(m,ms){const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',ms||2200)}
 function protect(p,mode){
  const toks=[];let t=p;
  if(gl.length){
-  const re=new RegExp('(?<![A-Za-z0-9])('+gl.map(g=>g.en).sort((a,b)=>b.length-a.length).map(rx).join('|')+')(?![A-Za-z0-9])','gi');
+  const re=glRe||(glRe=new RegExp('(?<![A-Za-z0-9])('+gl.map(g=>g.en).sort((a,b)=>b.length-a.length).map(rx).join('|')+')(?![A-Za-z0-9])','gi'));
   t=t.replace(re,m=>{
    const g=gl.find(x=>x.en.toLowerCase()===m.toLowerCase());
    toks.push({kind:g.bn?'f':'k',txt:g.bn||m,en:g.en});
-   return mode==='en'?' ZZ'+(toks.length-1)+'ZZ ':'«'+(toks.length-1)+'»';
+   return mode==='en'?' ZZ'+(toks.length-1)+'ZZ ':mode==='ai'?'⟦G'+(toks.length-1)+'⟧':'«'+(toks.length-1)+'»';
   });
  }
  if(mode==='en')t=t.replace(/\b[A-Z]{2,}[A-Za-z0-9]*\b|\b[A-Za-z0-9]+_[A-Za-z0-9_]+\b|\b[a-z]+[A-Z][A-Za-z0-9]*\b/g,m=>{
@@ -438,7 +440,7 @@ async function trPara(p,seen){
   for(const x of parts){outp.push(await tr(x,'auto'));(await segsOf(x,'auto')).forEach(y=>sgAll.push(y))}
   const dt=(z,en)=>z.replace(/ZZ\s*(\d+)\s*ZZ/g,(m,i)=>toks[+i]?(en?toks[+i].en:toks[+i].txt):'').replace(/\s+/g,' ').trim();
   if(sgAll.length)pset('pa:'+hk(p),sgAll.map(g=>({bn:dt(g.bn,false),en:dt(g.en,true)})));
-  return restore(esc(outp.join(' ')),toks);
+  return restore(esc(outp.join(' ')),toks).replace(/ {2,}/g,' ').replace(/ ([,;:!?।])/g,'$1');
  }
  const {t,toks}=protect(p,'bn');
  const ts=T(t);
@@ -455,6 +457,13 @@ async function trPara(p,seen){
  return restore(o,toks);
 }
 let ak=ls.get('ak')||'',gp=ls.get('gp')||'gemini',cm=ls.get('cm')||'claude-haiku-5-5',reg=ls.get('reg')||'wb';
+const DEF_CUST=`বাংলা ভাষায় অনুবাদ করো। অনুবাদের সময় নিচের বিষয়গুলোর প্রতি বিশেষভাবে খেয়াল রাখবে:
+১. দার্শনিক পরিভাষা: অনুবাদটি যেন বৌদ্ধ দর্শন (Tibetan Buddhism), বেদান্ত এবং হিন্দু দর্শনের প্রামাণিক পরিভাষা অনুযায়ী অত্যন্ত প্রাঞ্জল ও নিখুঁত হয় (যেমন: শূন্যতা, প্রতিভাস, বিজ্ঞান, আলয়, প্রজ্ঞপ্তি ইত্যাদি)।
+২. মূল পরিভাষা সংরক্ষণ: যে সমস্ত সংস্কৃত, পালি বা তিব্বতি পরিভাষার কোনো যথাযথ বা সন্তোষজনক ইংরেজি প্রতিশব্দ নেই (যেমন: Dharma, Sunyata, Rigpa, Chitta ইত্যাদি), সেগুলোর মূল ইংরেজি বা উৎস শব্দগুলো বাংলার পাশেই বন্ধনীতে (English terms in parentheses) বা সোজাসুজি রেখে দেবে, যাতে মূল দর্শনের অর্থ বিকৃত না হয়।
+৩. ভাষার টোন: অনুবাদটি আক্ষরিক না করে ভাবগম্ভীর, পঠনযোগ্য এবং দার্শনিক ভাব বজায় রেখে সাবলীল বাংলায় উপস্থাপন করবে।`;
+let cust=ls.get('cust');if(cust===null||cust===undefined)cust=DEF_CUST;
+const PRESET=[["Dharma", "ধর্ম (Dharma)"], ["Great Perfection", "মহা পরিপূর্ণতা (Great Perfection)"], ["Sunyata", "শূন্যতা (Śūnyatā)"], ["Shunyata", "শূন্যতা (Śūnyatā)"], ["Śūnyatā", "শূন্যতা (Śūnyatā)"], ["emptiness", "শূন্যতা (Śūnyatā)"], ["Rigpa", "রিগপা (Rigpa)"], ["Citta", "চিত্ত (Citta)"], ["Chitta", "চিত্ত (Citta)"], ["Nirvana", "নির্বাণ (Nirvāṇa)"], ["Samsara", "সংসার (Saṃsāra)"], ["Karma", "কর্ম (Karma)"], ["Bodhicitta", "বোধিচিত্ত (Bodhicitta)"], ["Bodhisattva", "বোধিসত্ত্ব (Bodhisattva)"], ["Madhyamaka", "মধ্যমক (Madhyamaka)"], ["Yogacara", "যোগাচার (Yogācāra)"], ["Alayavijnana", "আলয়বিজ্ঞান (Ālayavijñāna)"], ["Alaya", "আলয় (Ālaya)"], ["Vijnana", "বিজ্ঞান (Vijñāna)"], ["Prajnaparamita", "প্রজ্ঞাপারমিতা (Prajñāpāramitā)"], ["Prajnapti", "প্রজ্ঞপ্তি (Prajñapti)"], ["Prajna", "প্রজ্ঞা (Prajñā)"], ["Pratibhasa", "প্রতিভাস (Pratibhāsa)"], ["dependent origination", "প্রতীত্যসমুৎপাদ (Dependent Origination)"], ["dependent arising", "প্রতীত্যসমুৎপাদ (Dependent Arising)"], ["Atman", "আত্মন্ (Ātman)"], ["Brahman", "ব্রহ্ম (Brahman)"], ["Maya", "মায়া (Māyā)"], ["Advaita", "অদ্বৈত (Advaita)"], ["Vedanta", "বেদান্ত (Vedānta)"], ["Moksha", "মোক্ষ (Mokṣa)"], ["Dukkha", "দুঃখ (Duḥkha)"], ["Anatman", "অনাত্মা (Anātman)"], ["Anatta", "অনাত্মা (Anattā)"], ["Anitya", "অনিত্য (Anitya)"], ["Anicca", "অনিত্য (Anicca)"], ["Tathagatagarbha", "তথাগতগর্ভ (Tathāgatagarbha)"], ["Tathagata", "তথাগত (Tathāgata)"], ["Mahamudra", "মহামুদ্রা (Mahāmudrā)"], ["Svabhava", "স্বভাব (Svabhāva)"], ["Pramana", "প্রমাণ (Pramāṇa)"], ["Skandha", "স্কন্ধ (Skandha)"], ["Dharmakaya", "ধর্মকায় (Dharmakāya)"], ["two truths", "দুই সত্য: সংবৃতি ও পরমার্থ (Two Truths)"]];
+const hpv=ls.get('hyp');let hyPct=(hpv===null||hpv===''||isNaN(+hpv))?25:+hpv;
 let hy=ls.get('hy')!=='0',noEn=ls.get('ne')!=='0',qUntil=+ls.get('qu')||0,aheadP=null,aiCalls=0;
 let oaK=ls.get('oak')||'',oaU=ls.get('oau')||'https://api.openai.com/v1',oaM=ls.get('oam')||'';
 const aiKey=()=>gp==='claude'?ak:gp==='oai'?(oaM&&oaK):gk;
@@ -517,7 +526,7 @@ function termTable(){
 function gprompt(list){
  const T=termTable();
  return 'You are an expert human translator producing Bangla (Bengali) for a serious reader who is STUDYING this book and wants the author\'s exact ideas.\n'
- +'BOOK: '+(key?key.replace(/^pos:/,'').replace(/\d+$/,''):'unknown')+(gtp?'\nSUBJECT (from reader): '+gtp:'')+(bookCtx.profile?'\nBOOK PROFILE (your earlier understanding, keep following it): '+bookCtx.profile:'')+'\n\n'
+ +'BOOK: '+(key?key.replace(/^pos:/,'').replace(/\d+$/,''):'unknown')+(gtp?'\nSUBJECT (from reader): '+gtp:'')+(bookCtx.profile?'\nBOOK PROFILE (your earlier understanding, keep following it): '+bookCtx.profile:'')+(cust.trim()?'\nREADER\'S CUSTOM INSTRUCTIONS (highest priority; follow them strictly, they override the defaults below where they differ):\n'+cust.trim():'')+'\n\n'
  +'PRIORITIES:\n'
  +'1. Faithful meaning. Carry the author\'s argument, nuance, emphasis, tone and register. Never drop, soften or add content.\n'
  +'2. Read ALL paragraphs as one connected text. Resolve pronouns, ellipsis and references from context; keep the logical flow between paragraphs; follow the book\'s subject so words take their meaning in this field (not their everyday meaning).\n'
@@ -526,6 +535,7 @@ function gprompt(list){
   ?'4. THE READER DOES NOT KNOW ENGLISH AT ALL, so never leave a bare English word. For every technical/subject term: use a good Bangla word when one exists with the exact meaning; otherwise write the term in Bangla script (transliteration), e.g. অর্ডার ব্লক, and on its FIRST occurrence in this input add the original English in brackets, e.g. তরলতা (liquidity), অর্ডার ব্লক (order block), এপিআই (API); where useful add a very short Bangla explanation once. Use the same Bangla form every time. Names of people/places/brands: Bangla script, English in brackets once.\n'
   :'4. Technical/subject terms: be consistent everywhere. (a) Keep in English letters any term whose Bangla would blur or change the meaning; on its first occurrence in this input add the Bangla meaning in brackets, e.g. liquidity (তরলতা), then use the English alone. (b) Use plain Bangla for ordinary words and terms with a standard exact Bangla equivalent. (c) Always keep acronyms, names, brands, code, formulas and numbers as they are.\n')
  +'5. If a paragraph is already Bangla, keep its wording and only fix English words/terms inside it by rule 4. Keep headings short and list formatting.\n'
+ +(list.some(t=>String(t).includes('⟦G'))?'PROTECTED GLOSSARY TOKENS such as ⟦G0⟧ stand for fixed terms chosen by the reader. Copy every token EXACTLY as written (with its brackets) into the right place in your Bangla text. Never translate, change, drop, explain or duplicate a token; you may attach normal Bangla suffixes right after it.\n':'')
  +(T.keep.length?(noEn?'HARD TERMS (write in Bangla script, English in brackets on first use): ':'ALWAYS KEEP IN ENGLISH: ')+T.keep.join(', ')+'\n':'')
  +(T.map.length?'ALWAYS USE THESE TRANSLATIONS: '+T.map.join('; ')+'\n':'')
  +(gPrev?'\nPREVIOUS TRANSLATED TEXT (for continuity of voice and terms only; do not repeat it):\n'+gPrev+'\n':'')
@@ -535,14 +545,22 @@ function gprompt(list){
  +(bookCtx.profile?'':'"profile": 2-3 sentences describing the book\'s subject, tone and likely audience.\n')
  +'\nPARAGRAPHS (JSON array of {i,text}):\n'+JSON.stringify(list.map((t,k)=>({i:k+1,text:t})));
 }
-async function callBatch(list){
+function restoreAI(t,toks){
+ if(!toks||!toks.length)return t;
+ for(let i=0;i<toks.length;i++){if(!new RegExp('⟦\\s*G'+i+'\\s*⟧').test(t))return null}
+ return t.replace(/⟦\s*G(\d+)\s*⟧/g,(m,i)=>toks[+i]?toks[+i].txt:'');
+}
+function restoreLoose(t,toks){return t.replace(/⟦\s*G(\d+)\s*⟧/g,(m,i)=>toks&&toks[+i]?toks[+i].txt:'')}
+const inPara=(en,para)=>{const p=para.toLowerCase(),e=String(en).toLowerCase().trim();if(!e)return false;if(p.includes(e))return true;const ws=(e.match(/[a-z][a-z'’-]*/g)||[]).filter(w=>!STOP.has(w));return ws.length>0&&ws.every(w=>p.includes(stemE(w)))};
+async function callBatch(list,orig){
+ orig=orig||list;
  let lastErr=null;
  for(let t=0;t<2;t++){
   const res=await llm(gprompt(list));
   const arr=Array.isArray(res)?res:(res&&res.translations);
   const o=new Array(list.length).fill(null);
   if(Array.isArray(arr))arr.forEach((x,k)=>{
-   if(x&&typeof x==='object'&&x.i&&x.t!=null&&o[x.i-1]===null){o[x.i-1]=String(x.t);if(Array.isArray(x.w)&&list[x.i-1]!==undefined)pset('pa2:'+hk(list[x.i-1]),x.w.filter(a=>Array.isArray(a)&&a[0]&&a[1]).slice(0,30))}
+   if(x&&typeof x==='object'&&x.i&&x.t!=null&&o[x.i-1]===null){o[x.i-1]=String(x.t);if(Array.isArray(x.w)&&orig[x.i-1]!==undefined)pset('pa2:'+hk(orig[x.i-1]),x.w.filter(a=>Array.isArray(a)&&a[0]&&a[1]&&!/⟦/.test(a[0]+a[1])).slice(0,30))}
    else if(typeof x==='string'&&arr.length===list.length)o[k]=x;
   });
   const ok=o.filter(x=>x!==null).length;
@@ -561,7 +579,7 @@ async function callBatch(list){
 const pmem=new Map();
 async function pget(k){if(pmem.has(k))return pmem.get(k);const c=await kvGet(k);if(c!=null)pmem.set(k,c);return c}
 function pset(k,v){pmem.set(k,v);kvSet(k,v)}
-const pk=t=>'gp:'+hk(t+'|'+JSON.stringify(gl)+gtp+reg+(noEn?1:0));
+const pk=t=>'gp:'+hk(t+'|'+gver+'|'+gtp+reg+(noEn?1:0)+'|'+hk(cust));
 async function gemTr(list,max){
  max=max||3500;
  const out=new Array(list.length).fill(null),miss=[];
@@ -570,7 +588,9 @@ async function gemTr(list,max){
  while(i<miss.length){
   const idx=[];let n=0;
   while(i<miss.length&&(!idx.length||n+list[miss[i]].length<max)){idx.push(miss[i]);n+=list[miss[i]].length;i++}
-  const res=await callBatch(idx.map(k=>list[k]));
+  const pr=idx.map(k=>protect(list[k],'ai'));
+  const raw=await callBatch(pr.map(x=>x.t),idx.map(k=>list[k]));
+  const res=raw.map((t,j)=>t==null?null:restoreAI(t,pr[j].toks));
   idx.forEach((k,j)=>{if(res[j]!=null){out[k]=res[j];pset(pk(list[k]),res[j])}});
  }
  const g=out.filter(x=>x!=null);if(g.length)gPrev=g.slice(-2).join('\n').slice(-700);
@@ -612,6 +632,41 @@ function wrapWords(root){
  }
 }
 function fin(d,b){wrapWords(d);const c=document.createElement('span');c.className='ob';c.textContent='মূল';d.append(' ',c);b.classList.add('done')}
+function parseGloss(t){
+ t=t.replace(/^\uFEFF/,'').trim();const out=[];
+ if(t[0]==='{'||t[0]==='['){
+  try{const j=JSON.parse(t);
+   if(Array.isArray(j))j.forEach(x=>{if(Array.isArray(x))out.push([x[0],x[1]]);else if(x&&x.en&&x.bn)out.push([x.en,x.bn])});
+   else Object.entries(j).forEach(([a,b])=>out.push([a,String(b)]));
+  }catch(e){}
+ }
+ if(!out.length)t.split(/\r?\n/).forEach(l=>{
+  l=l.trim();if(!l||l[0]==='#')return;
+  const i=l.includes('=')?l.indexOf('='):l.includes('\t')?l.indexOf('\t'):l.indexOf(',');
+  if(i<0)return;
+  out.push([l.slice(0,i),l.slice(i+1)]);
+ });
+ const q=x=>String(x==null?'':x).replace(/^[\s"'`]+|[\s"'`]+$/g,'').trim();
+ return out.map(([a,b])=>[q(a),q(b)]).filter(([a,b])=>a&&b&&a.length<80&&!/^(english|en|term)$/i.test(a));
+}
+async function loadGloss(u){
+ const r=await fetch(u,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);
+ const list=parseGloss(await r.text());
+ if(!list.length)throw new Error('কোনো "English = বাংলা" লাইন পাইনি');
+ let add=0,upd=0;
+ list.forEach(([en,b])=>{
+  const k=en.toLowerCase(),g=gl.find(x=>x.en.toLowerCase()===k),val=/^keep_?en$/i.test(b)?undefined:b;
+  if(!g){gl.push(val?{en,bn:val}:{en});webKeys.add(k);add++}
+  else if(webKeys.has(k)&&g.bn!==val){if(val)g.bn=val;else delete g.bn;upd++}
+ });
+ saveGl();ls.set('glwk',JSON.stringify([...webKeys]));glt=Date.now();ls.set('glt',String(glt));
+ return{add,upd,total:list.length};
+}
+function hardSel(items,pct){
+ if(pct<=0)return [];
+ const minS=pct<=30?1:(pct<=60?0.5:0),cap=Math.max(1,Math.ceil(items.length*pct/100));
+ return items.filter(x=>x.s>=minS).sort((a,b)=>b.s-a.s).slice(0,cap);
+}
 function hardScore(p,h){
  const w=(p.match(/\S+/g)||[]).length;if(w<8)return 0;
  const sn=Math.max(1,(p.match(/[.!?।]+(\s|$)/g)||[]).length);
@@ -627,9 +682,8 @@ function applyAI(b,txt){const d=b.querySelector('.tr');d.textContent=txt;d.class
 async function hybridAI(blks,my){
  const todo=[];
  for(const b of blks){const c=await pget(pk(b.querySelector('.o').textContent));if(c!=null&&my===tok)applyAI(b,c);else todo.push(b)}
- const cap=Math.max(1,Math.ceil(blks.length*0.25));
- const sel=todo.map(b=>({b,s:hardScore(b.querySelector('.o').textContent,b._h)})).filter(x=>x.s>=1).sort((a,b)=>b.s-a.s).slice(0,cap).map(x=>x.b);
- if(!sel.length){setSt('✓ Google Translate'+(todo.length<blks.length?' + জমা AI অংশ (✨)':' (সবই সহজ, AI লাগেনি)'));return}
+ const sel=hardSel(todo.map(b=>({b,s:hardScore(b.querySelector('.o').textContent,b._h)})),hyPct).map(x=>x.b);
+ if(!sel.length){setSt('✓ Google Translate'+(todo.length<blks.length?' + জমা AI অংশ (✨)':(hyPct<=0?' (AI ০% সেট করা)':' (সবই সহজ, AI লাগেনি)')));return}
  setSt('✓ Google · ⏳ '+sel.length+'টি কঠিন অংশ '+provName()+'-এ উন্নত হচ্ছে…');
  try{
   const res=await gemTr(sel.map(b=>b.querySelector('.o').textContent),3500);
@@ -683,16 +737,27 @@ view.addEventListener('click',e=>{
   toggleTerm(el);return;
  }
  const ob=e.target.closest('.ob');
- if(ob){ob.closest('.blk').classList.toggle('show');return}
+ if(ob){
+  const bk=ob.closest('.blk'),old=bk.querySelector('.os');
+  if(old){old.remove();return}
+  if(selTxt&&selBlk===bk&&Date.now()-selAt<30000){showOrigSel(bk,selTxt);selTxt='';return}
+  bk.classList.toggle('show');return;
+ }
  const w=e.target.closest('.w');
  if(w){
   const x=w.textContent,para=w.closest('.blk').querySelector('.o').textContent;
   showTip(w,x+' → …');
-  (async()=>{let i=null;try{i=await wordInfo(x)}catch(e){}showTip(w,await tipFull(x,i,para,w))})();
+  (async()=>{let i=null;try{i=await wordInfo(x)}catch(e){}const r=await tipFull(x,i,para,w);showTip(w,r.t,r.b?{en:r.b,bn:x}:null)})();
  }
 });
-function showTip(el,t){
- const p=$('#tip');p.textContent=t;p.style.display='block';
+function showTip(el,t,pair){
+ const p=$('#tip');p.textContent=t;
+ if(pair&&pair.en&&pair.bn){
+  const b=document.createElement('button');b.textContent='➕ শব্দকোষে রাখুন';b.className='tipb';
+  b.onclick=ev=>{ev.stopPropagation();p.style.display='none';addGlossUI(pair.en,pair.bn)};
+  p.append(document.createElement('br'),b);
+ }
+ p.style.display='block';
  const r=el.getBoundingClientRect(),pw=p.offsetWidth,ph=p.offsetHeight;
  p.style.left=Math.max(8,Math.min(r.left,innerWidth-pw-8))+'px';
  p.style.top=(r.bottom+ph+80>innerHeight?Math.max(60,r.top-ph-6):r.bottom+6)+'px';
@@ -706,10 +771,13 @@ $('#bAuto').onclick=()=>{
 };
 $('#bAuto').textContent='⇄ অনুবাদ '+(auto?'চালু':'বন্ধ');
 $('#bTerm').onclick=()=>run(()=>termList(paras.join('\n').slice(0,8000)));
+let chatToks={};
 function chatPrompt(idx){
- const g=gprompt(idx.map(k=>paras[k]));
+ const pr=idx.map(k=>protect(paras[k],'ai'));
+ chatToks={};idx.forEach((k,j)=>{chatToks[k]=pr[j].toks});
+ const g=gprompt(pr.map(x=>x.t));
  const head=g.slice(0,g.indexOf('\nOUTPUT:'));
- return head+'\nOUTPUT FORMAT: plain text only (no JSON, no markdown, no commentary). For every paragraph write its marker exactly as given, e.g. [12], then its Bangla translation. Keep the order; never skip or merge paragraphs.\n\nPARAGRAPHS:\n'+idx.map(k=>'['+(k+1)+'] '+paras[k]).join('\n\n');
+ return head+'\nOUTPUT FORMAT: plain text only (no JSON, no markdown). For every paragraph write its marker exactly as given, e.g. [12], then its Bangla translation. Keep the order; never skip or merge paragraphs. After the last paragraph add a line "TERMS:" followed by up to 15 important technical terms from this input that are NOT in the lists above, one per line as "english term = Bangla word you used (or KEEP_EN)"'+(bookCtx.profile?'':'. Then a final line "PROFILE:" followed by 2-3 sentences describing the book\'s subject, tone and likely audience')+'.\n\nPARAGRAPHS:\n'+idx.map((k,j)=>'['+(k+1)+'] '+pr[j].t).join('\n\n');
 }
 let gptJob=null;
 function gbarMode(m,t){
@@ -717,15 +785,17 @@ function gbarMode(m,t){
  $('#gtxt').textContent=t||'';
  $('#gsend').style.display=m==='suggest'?'':'none';
  $('#gpaste').style.display=m==='wait'?'':'none';
+ $('#gapp').style.display=$('#gweb').style.display=m==='wait'?'':'none';
+ if(m==='wait'&&lastLinks){$('#gapp').href=lastLinks.app;$('#gweb').href=lastLinks.web}
 }
 const gbar=v=>gbarMode(v?'wait':null,'ChatGPT-র উত্তর কপি করেছেন?');
 let sugPos=-1;
 async function suggestGpt(){
  if(gptJob||sugPos===pos||!book)return;
  const g=await nextGroup();
- if(!g||!g.hard)return;
+ if(!g)return;
  sugPos=pos;
- gbarMode('suggest','AI-র উন্নতি আসেনি। কঠিন '+g.idx.length+'টি অংশ ChatGPT-তে পাঠাবেন?');
+ gbarMode('suggest','AI-র উন্নতি আসেনি। '+(g.hard?'কঠিন '+g.idx.length+'টি অংশ':'এই পাতার '+g.idx.length+'টি অনুচ্ছেদ')+' ChatGPT-তে পাঠাবেন?');
 }
 $('#gsend').onclick=()=>$('#bGpt').click();
 async function nextGroup(){
@@ -733,18 +803,71 @@ async function nextGroup(){
  const todo=[];
  for(let k=0;k<paras.length;k++){if(await pget('mp:'+hk(paras[k]))==null)todo.push(k)}
  if(!todo.length)return null;
- const hard=todo.map(k=>({k,s:hardScore(paras[k],blks[k]&&blks[k]._h)})).filter(x=>x.s>=1).sort((a,b)=>b.s-a.s).slice(0,Math.max(1,Math.ceil(paras.length*0.25))).map(x=>x.k).sort((a,b)=>a-b);
- const arr=hard.length?hard:todo,pick=[];let n=0;
- for(const k of arr){const l=paras[k].length;if(pick.length&&n+l>3500)break;pick.push(k);n+=l}
- return {idx:pick,hard:!!hard.length};
+ const hard=hardSel(todo.map(k=>({k,s:hardScore(paras[k],blks[k]&&blks[k]._h)})),hyPct).map(x=>x.k).sort((a,b)=>a-b);
+ const pg=(ls.get('gscope')||'page')==='page';
+ const arr=pg?todo:(hard.length?hard:todo),pick=[],cap=pg?6000:3500;let n=0;
+ for(const k of arr){const l=paras[k].length;if(pick.length&&n+l>cap)break;pick.push(k);n+=l}
+ return {idx:pick,hard:!pg&&!!hard.length};
+}
+let lastLinks=null;
+function chatLinks(prompt){
+ const link=ls.get('gcl')||'',enc=encodeURIComponent(prompt),base=link||'https://chatgpt.com/';
+ const web=(!link&&enc.length<=7000)?'https://chatgpt.com/?q='+enc:base;
+ const app=(!link&&enc.length<=3500)?'https://chatgpt.com/?q='+enc:base;
+ const it=u=>'intent://'+u.replace(/^https:\/\//,'')+'#Intent;scheme=https;package=com.openai.chatgpt;S.browser_fallback_url='+encodeURIComponent(base)+';end';
+ return {web,app:it(app),preWeb:web!==base,preApp:app!==base};
 }
 function openChat(prompt,mode){
- const link=ls.get('gcl')||'',enc=encodeURIComponent(prompt);
- let url=link||'https://chatgpt.com/',pre=false;
- if(!link&&enc.length<=7000){url='https://chatgpt.com/?q='+enc;pre=true}
- if(mode==='app')location.href='intent://'+url.replace(/^https:\/\//,'')+'#Intent;scheme=https;package=com.openai.chatgpt;S.browser_fallback_url='+encodeURIComponent(url)+';end';
- else window.open(url,'_blank');
- return pre;
+ const L=chatLinks(prompt);lastLinks=L;
+ if(mode==='app')location.href=L.app;else window.open(L.web,'_blank');
+ return mode==='app'?L.preApp:L.preWeb;
+}
+const bwords=x=>(x.match(/[\u0980-\u09FF\u200c\u200d]+/g)||[]).map(bst).filter(w=>w.length>1);
+async function origFor(b,sel){
+ const para=b.querySelector('.o').textContent;
+ const sg=await pget('pa:'+hk(para)),sw=new Set(bwords(sel));
+ if(Array.isArray(sg)&&sg.length&&sw.size){
+  const hits=[];
+  sg.forEach(g=>{const n=bwords(g.bn).filter(w=>sw.has(w)).length;if(n>0&&n>=Math.min(2,sw.size)&&n>=sw.size*0.4)hits.push(g.en)});
+  if(hits.length)return hits.join(' ').replace(/\s+/g,' ').trim();
+ }
+ const te=b.querySelector('.tr').cloneNode(true);te.querySelectorAll('.ob,.pin,.os,.note').forEach(n=>n.remove());
+ const bs=te.textContent.split(/(?<=[।.!?])\s+/).filter(Boolean),es=para.split(/(?<=[.!?।])\s+/).filter(Boolean);
+ if(!bs.length||!es.length)return null;
+ let i=bs.findIndex(x=>x.includes(sel.slice(0,Math.min(sel.length,14))));
+ if(i<0){const w2=bwords(sel);let best=0;bs.forEach((x,k)=>{const n=bwords(x).filter(w=>w2.includes(w)).length;if(n>best){best=n;i=k}})}
+ if(i<0)return null;
+ let j=bs.findIndex((x,k)=>k>=i&&x.includes(sel.slice(-14)));if(j<0)j=i;
+ const mp=k=>bs.length===es.length?k:Math.round(k/Math.max(1,bs.length-1)*(es.length-1));
+ const a=mp(i),c=Math.max(a,mp(j));
+ return es.slice(a,c+1).join(' ');
+}
+async function showOrigSel(b,sel){
+ const en=await origFor(b,sel);
+ if(!en){b.classList.add('show');toast('নির্দিষ্ট বাক্য মেলেনি, পুরো মূল অনুচ্ছেদ দেখাচ্ছি');return}
+ const d=document.createElement('div');d.className='os';
+ const x=document.createElement('span');x.className='nx';x.textContent='✕';x.onclick=()=>d.remove();
+ const t=document.createElement('span');t.textContent='📖 মূল: '+en;
+ d.append(x,t);b.querySelector('.tr').after(d);
+}
+function addGlossUI(en,bnW){
+ sheet.style.display='flex';
+ out.innerHTML='<div><b>➕ শব্দকোষে রাখুন</b><br>এই শব্দ পরে AI ছাড়াই (Google-এর অনুবাদেও) একই বাংলায় বসবে। বাংলা শব্দ বিভক্তি বাদ দিয়ে মূল রূপে লিখুন (যেমন: বাজারে → বাজার)।</div><input class="gi" id="ge" placeholder="English শব্দ"><input class="gi" id="gb" placeholder="বাংলা"><label style="display:block;margin:6px 0"><input type="checkbox" id="gbk" checked> বাংলার পাশে বন্ধনীতে ইংরেজি দেখান</label><button class="p" id="gsv">সেভ করুন</button> <button id="gcn">বাতিল</button>';
+ $('#ge').value=en||'';$('#gb').value=bnW||'';
+ $('#gcn').onclick=()=>{sheet.style.display='none'};
+ $('#gsv').onclick=()=>{
+  const e=$('#ge').value.trim(),b=$('#gb').value.trim();
+  if(!e){toast('ইংরেজি শব্দ লিখুন');return}
+  const k=e.toLowerCase(),i=gl.findIndex(g=>g.en.toLowerCase()===k);
+  let ent;
+  if(!b)ent={en:e};
+  else ent={en:e,bn:($('#gbk').checked&&!b.includes('('))?b+' ('+e+')':b};
+  if(i>=0)gl[i]=ent;else gl.push(ent);
+  webKeys.delete(k);ls.set('glwk',JSON.stringify([...webKeys]));
+  saveGl();sheet.style.display='none';
+  toast('✅ "'+e+'" শব্দকোষে যোগ হয়েছে'+(b?' → '+ent.bn:' (ইংরেজিই থাকবে)'),4500);
+  if(book&&auto)translateAll();
+ };
 }
 function noteAdd(b,n){
  const d=document.createElement('div');d.className='note';
@@ -777,10 +900,26 @@ function applyGpt(txt,auto){
   if(t.length<8||bn(t)<=lat(t)*0.3){if(!auto)toast('কপি করা লেখায় ChatGPT-র বাংলা উত্তর পাইনি',5000);return false}
   const job=gptJob;gptJob=null;gbar(false);showAsk(job,t);return true;
  }
- const parts=txt.split(/\[(\d+)\]/);let ok=0;
+ const mT=txt.match(/^[ \t>*#-]*TERMS\s*:/im),mP=txt.match(/^[ \t>*#-]*PROFILE\s*:/im);
+ const iT=mT?mT.index:-1,iP=mP?mP.index:-1,cutAt=[iT,iP].filter(x=>x>=0).sort((a,b)=>a-b)[0];
+ const body=cutAt!==undefined?txt.slice(0,cutAt):txt;
+ const termsT=iT>=0?txt.slice(iT,iP>iT?iP:undefined).replace(/^[^:]*:/,''):'';
+ const profT=iP>=0?txt.slice(iP,iT>iP?iT:undefined).replace(/^[^:]*:/,'').replace(/[*]+/g,'').trim():'';
+ const parts=body.split(/\[(\d+)\]/);let ok=0;const saved=[];
  for(let k=1;k<parts.length;k+=2){
   const idx=+parts[k]-1,t=(parts[k+1]||'').replace(/^[\s*:：.\-]+|[\s*]+$/g,'');
-  if(t&&gptJob.idx.includes(idx)&&gptJob.snap[idx]!==undefined&&bn(t)>lat(t)*0.5){pset('mp:'+hk(gptJob.snap[idx]),t);ok++}
+  const tt=t?restoreLoose(t,(gptJob.tok&&gptJob.tok[idx])||[]):t;
+  if(tt&&gptJob.idx.includes(idx)&&gptJob.snap[idx]!==undefined&&bn(tt)>lat(tt)*0.5){pset('mp:'+hk(gptJob.snap[idx]),tt);saved.push(tt);ok++}
+ }
+ if(ok){
+  termsT.split('\n').forEach(l=>{
+   const m=l.replace(/^[\s*\-•\d.)]+/,'').split('=');
+   if(m.length>=2){const en=m[0].replace(/[*`"]/g,'').trim(),b=m.slice(1).join('=').replace(/[*`"]/g,'').trim();
+    if(en&&b&&en.length<60&&Object.keys(bookCtx.terms).length<400)bookCtx.terms[en.toLowerCase()]=b}
+  });
+  if(profT&&!bookCtx.profile)bookCtx.profile=profT.slice(0,600);
+  gPrev=saved.slice(-2).join('\n').slice(-700);
+  if(key)kvSet('bc:'+key,bookCtx);
  }
  if(!ok){if(!auto)toast('কপি করা লেখায় বাংলা অনুবাদ খুঁজে পাইনি। ChatGPT-র উত্তর সম্পূর্ণ কপি করেছেন কি?',5000);return false}
  gptJob=null;gbar(false);sheet.style.display='none';
@@ -801,21 +940,34 @@ function openPaste(){
  $('#cgs').onclick=()=>{applyGpt($('#cgt').value,false)};
 }
 $('#gpaste').onclick=()=>tryClip(false);
-let selTxt='',selBlk=null,selT=null;
+let selTxt='',selBlk=null,selT=null,selAt=0;
 document.addEventListener('selectionchange',()=>{
  const sl=getSelection(),t=((sl&&sl.toString())||'').trim();
  clearTimeout(selT);
  if(t.length>1&&t.length<=1500&&sl.anchorNode&&view.contains(sl.anchorNode)){
-  selTxt=t;const n=sl.anchorNode.nodeType===1?sl.anchorNode:sl.anchorNode.parentElement;selBlk=n?n.closest('.blk'):null;
-  $('#selb').style.display='block';
+  selTxt=t;selAt=Date.now();const n=sl.anchorNode.nodeType===1?sl.anchorNode:sl.anchorNode.parentElement;selBlk=n?n.closest('.blk'):null;
+  $('#selb').style.display='flex';
  }else selT=setTimeout(()=>{if(!(getSelection().toString()||'').trim())$('#selb').style.display='none'},1500);
 });
 function askPrompt(sel,para){
  return 'I am a Bangla-speaking reader who does not know English, and I am studying a book'+(gtp?' about: '+gtp:'')+(bookCtx.profile?'. Book profile: '+bookCtx.profile:'')+'.\n\n'
  +(para?'Book paragraph (original): «'+para+'»\n\n':'')
  +'Selected part: «'+sel+'»\n\n'
- +'Please: (1) If the selected part is Bangla and the original paragraph is English, tell me the exact English word or term from the book that it translates. (2) Explain what it means in this book\'s context, in very simple '+(reg==='wb'?'West Bengal':'standard')+' Bangla. (3) If the selected part is English, first give a faithful Bangla translation. For technical terms write the Bangla word and the English in brackets. Reply in Bangla only, short, no preamble.';
+ +'Please: (1) If the selected part is Bangla and the original paragraph is English, tell me the exact English word or term from the book that it translates. (2) Explain what it means in this book\'s context, in very simple '+(reg==='wb'?'West Bengal':'standard')+' Bangla. (3) If the selected part is English, first give a faithful Bangla translation. For technical terms write the Bangla word and the English in brackets. Reply in Bangla only, short, no preamble.'+(cust.trim()?'\n\nReader\'s standing instructions (follow them): '+cust.trim():'');
 }
+$('#seladd').onclick=async()=>{
+ if(!selTxt)return;
+ const para=selBlk?selBlk.querySelector('.o').textContent:'';
+ let en='',bnT='';
+ if(lat(selTxt)>bn(selTxt)){en=selTxt.slice(0,80)}
+ else{
+  bnT=selTxt.slice(0,80);
+  const pr=await pget('pa2:'+hk(para));
+  if(Array.isArray(pr)){const hit=pr.filter(a=>a[0]&&selTxt.includes(a[0])&&inPara(String(a[1]),para)).map(a=>a[1]);if(hit.length)en=[...new Set(hit)].join(' ')}
+ }
+ $('#selb').style.display='none';
+ addGlossUI(en,bnT);
+};
 $('#selbtn').onclick=async()=>{
  if(!selTxt)return;
  const para=selBlk?selBlk.querySelector('.o').textContent:'';
@@ -836,11 +988,11 @@ $('#bGpt').onclick=async()=>{
  const g=await nextGroup();
  if(!g){toast('✅ এই পাতার সব অংশ ChatGPT-র অনুবাদে আছে');return}
  const txt=chatPrompt(g.idx);
- gptJob={snap:paras.slice(),idx:g.idx.slice()};
+ gptJob={snap:paras.slice(),idx:g.idx.slice(),tok:chatToks};
  let copied=false;try{await navigator.clipboard.writeText(txt);copied=true}catch(e){}
  const pre=openChat(txt,ls.get('gmode')||'web');
  gbar(true);
- toast((g.hard?'⭐ কঠিন '+g.idx.length+'টি অংশ। ':'')+(pre?'ChatGPT খুলছে, প্রম্পট বসানো থাকবে। না থাকলে পেস্ট করুন।':(copied?'প্রম্পট কপি হয়েছে। ChatGPT-তে পেস্ট করে পাঠান।':'অটো কপি হয়নি, নিচের ঘরে ম্যানুয়ালি করুন।')),6000);
+ toast((g.hard?'⭐ কঠিন '+g.idx.length+'টি অংশ। ':'')+(pre?'ChatGPT খুলছে, প্রম্পট বসানো থাকবে। না থাকলে পেস্ট করুন।':(copied?'প্রম্পট কপি হয়েছে (লম্বা বলে আগে থেকে বসানো যায়নি)। ChatGPT না খুললে ওপরের 📱/🌐 বোতাম চাপুন, তারপর বার্তার ঘরে চেপে ধরে Paste করে পাঠান।':'অটো কপি হয়নি, নিচের ঘরে ম্যানুয়ালি করুন।')),6000);
 };
 let preStop=false;
 $('#bOff').onclick=()=>{
@@ -899,7 +1051,7 @@ async function preRunInner(i0){
   const seen=new Set(),nf=netFail;
   const hs=await pool(ps,async p=>{try{return await trPara(p,seen)}catch(e){return ''}},2);
   if(llmOn()&&hy&&!aiDead){
-   const cand=ps.map((p,k)=>({p,s:hardScore(p,hs[k]||'')})).filter(x=>x.s>=1).sort((a,b)=>b.s-a.s).slice(0,Math.max(1,Math.ceil(ps.length*0.25)));
+   const cand=hardSel(ps.map((p,k)=>({p,s:hardScore(p,hs[k]||'')})),hyPct);
    cand.forEach(x=>{hardBuf.push(x.p);hardN+=x.p.length});
    if(hardN>=7000)await flushHard();
   }
@@ -924,6 +1076,7 @@ $('#bGl').onclick=()=>{
  +'<label style="display:block;margin:6px 0"><input type="checkbox" id="gon"> AI অনুবাদ চালু করুন (key লাগবে)</label>'
  +'<select class="gi" id="gp"><option value="gemini">AI: Gemini (ফ্রি key)</option><option value="claude">AI: Claude (নিজের API key, পেইড)</option><option value="oai">AI: ChatGPT / Groq / OpenRouter (API key)</option></select>'
  +'<select class="gi" id="hy"><option value="1">পদ্ধতি: মিশ্র — Google ৮০% + AI ২০% (কঠিন অংশে), দ্রুত</option><option value="0">পদ্ধতি: শুধু AI — সেরা মান, ধীর, বেশি কোটা</option></select>'
+ +'<div style="margin-top:6px"><b id="hyl"></b><input type="range" id="hyp" min="0" max="100" step="5" style="width:100%"><span style="font-size:13px;color:var(--mut)">স্লাইডার ডানে নিলে বেশি অংশ AI-তে যাবে (মান বাড়ে, কোটা বেশি লাগে), বাঁয়ে নিলে বেশি Google (দ্রুত, কোটা বাঁচে)। AI সবচেয়ে কঠিন অংশগুলোই আগে পায়। শুধু "মিশ্র" পদ্ধতিতে কাজ করে।</span></div>'
  +'<select class="gi" id="reg"><option value="wb">বাংলা: পশ্চিমবঙ্গ (জল, স্নান…)</option><option value="bd">বাংলা: বাংলাদেশ (পানি, গোসল…)</option><option value="n">বাংলা: নিরপেক্ষ</option></select>'
  +'<input class="gi" id="gk" type="password" placeholder="Gemini API key" autocomplete="off">'
  +'<input class="gi" id="gm" placeholder="Gemini মডেলের নাম">'
@@ -933,15 +1086,39 @@ $('#bGl').onclick=()=>{
  +'<input class="gi" id="oak" type="password" placeholder="সেই সার্ভিসের API key" autocomplete="off">'
  +'<input class="gi" id="oam" placeholder="মডেলের নাম (সার্ভিসের সাইট দেখে লিখুন)">'
  +'<input class="gi" id="gtp" placeholder="বইয়ের বিষয় (যেমন: ট্রেডিং, মনোবিজ্ঞান)">'
+ +'<div style="margin-top:8px"><b>📜 অনুবাদের নির্দেশনা (AI-কে দেওয়া প্রম্পট)</b><br>Gemini, Claude ও ChatGPT-র সব অনুবাদে এটা যোগ হয়। Google Translate-এ প্রম্পট দেওয়া যায় না, সেখানে নিচের প্রিসেট পরিভাষা কাজ করে।</div>'
+ +'<textarea class="gi" id="cust" rows="8"></textarea>'
+ +'<button id="custd">ডিফল্ট (দর্শন) ফিরিয়ে আনুন</button> <button id="custc">খালি করুন</button> <button id="presetb">🕉 দর্শন পরিভাষা প্রিসেট যোগ</button>'
+ +'<div style="margin-top:8px"><b>🌐 অনলাইন শব্দকোষ (English = বাংলা)</b><br>যেকোনো খোলা লিংকের .txt / .csv / .json ফাইল দিন, যেখানে প্রতি লাইনে <code>English = বাংলা</code> লেখা। অ্যাপ থেকে এটা এনে শব্দভান্ডারে মিলিয়ে নেবে, সপ্তাহে একবার নিজে হালনাগাদ করবে। নিজের repository-তে <code>buddhist-glossary.txt</code> তুললে শুধু <code>buddhist-glossary.txt</code> লিখলেই চলবে।</div>'
+ +'<input class="gi" id="glu" placeholder="শব্দকোষের লিংক (যেমন buddhist-glossary.txt)">'
+ +'<button id="glf">🌐 এখনই আনুন</button> <span id="glm" style="font-size:13px"></span>'
  +'<div style="margin-top:8px"><b>💬 ChatGPT সেটিং</b></div>'
  +'<select class="gi" id="gmode"><option value="web">ChatGPT খুলবে: ব্রাউজারে</option><option value="app">ChatGPT খুলবে: ChatGPT অ্যাপে (Android)</option></select>'
  +'<input class="gi" id="gcl" placeholder="নিজের ChatGPT চ্যাট লিংক (ঐচ্ছিক, খালি রাখলে নতুন চ্যাট)">'
+ +'<select class="gi" id="gscope"><option value="page">ChatGPT-তে পাঠাবে: পুরো পাতা (ছোট ছোট অংশে)</option><option value="hard">ChatGPT-তে পাঠাবে: শুধু কঠিন অংশ</option></select>'
  +'<div id="bp" style="margin:6px 0;font-size:15px;color:var(--mut)"></div>'
- +'<button class="p" id="gs">সেভ করুন</button> <button id="gc">বন্ধ করুন</button> <button id="gtest">🔌 Gemini পরীক্ষা</button> <button id="bpr">প্রোফাইল রিসেট</button><div id="gres" style="margin-top:6px"></div>';
+ +'<button class="p" id="gs">সেভ করুন</button> <button id="gc">বন্ধ করুন</button> <button id="gtest">🔌 Gemini পরীক্ষা</button> <button id="bpr">প্রোফাইল রিসেট</button> <button id="bpi">📥 AI-র শেখা টার্ম শব্দকোষে নিন</button> <button id="vbump">🔄 AI অনুবাদ নতুন করে</button><div id="gres" style="margin-top:6px"></div>';
  $('#gt').value=gl.map(g=>g.bn?g.en+' = '+g.bn:g.en).join('\n');
  $('#pe').checked=pe;$('#ne').checked=noEn;$('#bo').checked=bo;$('#br').checked=br;$('#gc').onclick=()=>{sheet.style.display='none'};
  const bpShow=()=>{$('#bp').textContent=bookCtx.profile?'📘 AI-এর বোঝা: '+bookCtx.profile+' (শেখা টার্ম: '+Object.keys(bookCtx.terms).length+')':''};bpShow();
+ $('#bpi').onclick=()=>{let n=0;Object.entries(bookCtx.terms).forEach(([en,b])=>{if(!gl.some(g=>g.en.toLowerCase()===en)){gl.push(/^keep_?en$/i.test(b)?{en}:{en,bn:b});n++}});saveGl();const t=$('#gt');if(t)t.value=gl.map(g=>g.bn?g.en+' = '+g.bn:g.en).join('\n');toast(n+'টি টার্ম শব্দকোষে যোগ হয়েছে',4000)};
+ $('#vbump').onclick=()=>{gver++;ls.set('gver',String(gver));toast('পরের অনুবাদ থেকে AI সবকিছু নতুন করে করবে (আগের জমা বাদ)',5000)};
  $('#bpr').onclick=()=>{bookCtx={profile:'',terms:{}};if(key)kvSet('bc:'+key,bookCtx);bpShow();toast('প্রোফাইল রিসেট হয়েছে')};
+ $('#glu').value=glu;
+ $('#glf').onclick=async()=>{
+  const u=$('#glu').value.trim(),m=$('#glm');
+  if(!u){m.textContent='আগে লিংক দিন';return}
+  m.textContent='⏳ আনা হচ্ছে…';
+  try{
+   const r=await loadGloss(u);glu=u;ls.set('glu',u);
+   m.textContent='✅ '+r.add+'টি নতুন, '+r.upd+'টি হালনাগাদ (ফাইলে মোট '+r.total+'টি)';
+   const t=$('#gt');if(t)t.value=gl.map(g=>g.bn?g.en+' = '+g.bn:g.en).join('\n');
+   if(book&&auto)translateAll();
+  }catch(e){m.textContent='❌ আনা যায়নি: '+(e.message||e)+'। লিংকটা সরাসরি ফাইলের, সবার জন্য খোলা কি না দেখুন।'}
+ };
+ $('#custd').onclick=()=>{$('#cust').value=DEF_CUST};
+ $('#custc').onclick=()=>{$('#cust').value=''};
+ $('#presetb').onclick=()=>{let n=0;PRESET.forEach(([en,b])=>{if(!gl.some(g=>g.en.toLowerCase()===en.toLowerCase())){gl.push({en,bn:b});n++}});saveGl();const t=$('#gt');if(t)t.value=gl.map(g=>g.bn?g.en+' = '+g.bn:g.en).join('\n');toast(n+'টি পরিভাষা যোগ হয়েছে। সেভ করলে প্রযোজ্য হবে।',5000)};
  $('#gtest').onclick=async()=>{
   gk=$('#gk').value.trim();gm=$('#gm').value.trim()||'gemini-2.5-flash';ak=$('#ak').value.trim();cm=$('#cm').value.trim()||'claude-haiku-5-5';gp=$('#gp').value;reg=$('#reg').value;oaK=$('#oak').value.trim();oaU=$('#oau').value.trim()||'https://api.openai.com/v1';oaM=$('#oam').value.trim();
   const o=$('#gres');o.textContent='⏳ পরীক্ষা হচ্ছে…';
@@ -950,14 +1127,14 @@ $('#bGl').onclick=()=>{
    const arr=Array.isArray(res)?res:res&&res.translations,f=arr&&arr[0],t=f&&(f.t||(typeof f==='string'?f:''));
    o.textContent=(t?'✅ কাজ করছে। নমুনা:\n'+t:'⚠ উত্তর এসেছে কিন্তু ফরম্যাট ভাঙা: '+JSON.stringify(res).slice(0,200))+(ls.get('gon')==='1'?'':'\n⚠ কিন্তু "AI অনুবাদ চালু করুন" টিক সেভ করা নেই। টিক দিয়ে সেভ করুন, নইলে Google Translate চলবে।');
   }catch(e){o.textContent='❌ সমস্যা: কোড '+(e.status||e.name||'নেটওয়ার্ক')+(e.msg?'\n'+e.msg:(e.message?'\n'+e.message:''))}
- };$('#gon').checked=gOn;$('#gk').value=gk;$('#ak').value=ak;$('#cm').value=cm;$('#gp').value=gp;$('#gmode').value=ls.get('gmode')||'web';$('#gcl').value=ls.get('gcl')||'';$('#hy').value=hy?'1':'0';$('#oau').value=oaU;$('#oak').value=oaK;$('#oam').value=oaM;$('#reg').value=reg;$('#gm').value=gm;$('#gtp').value=gtp;
+ };$('#gon').checked=gOn;$('#gk').value=gk;$('#ak').value=ak;$('#cm').value=cm;$('#gp').value=gp;$('#gmode').value=ls.get('gmode')||'web';$('#gcl').value=ls.get('gcl')||'';$('#cust').value=cust;const hl=()=>{const v=+$('#hyp').value;$('#hyl').textContent='অনুপাত: Google '+(100-v)+'% + AI '+v+'%'};$('#hyp').value=hyPct;hl();$('#hyp').oninput=hl;$('#gscope').value=ls.get('gscope')||'page';$('#hy').value=hy?'1':'0';$('#oau').value=oaU;$('#oak').value=oaK;$('#oam').value=oaM;$('#reg').value=reg;$('#gm').value=gm;$('#gtp').value=gtp;
  $('#gs').onclick=()=>{
   const seen=new Set();gl=[];
   $('#gt').value.split('\n').forEach(l=>{
    const [en,...r]=l.split('=');const e=(en||'').trim(),b=r.join('=').trim();
    if(e&&!seen.has(e.toLowerCase())){seen.add(e.toLowerCase());gl.push(b?{en:e,bn:b}:{en:e})}
   });
-  gk=$('#gk').value.trim();gm=$('#gm').value.trim()||'gemini-2.5-flash';pe=$('#pe').checked;noEn=$('#ne').checked;ls.set('ne',noEn?'1':'0');qUntil=0;ls.set('qu','0');bo=$('#bo').checked;br=$('#br').checked;ls.set('bo',bo?'1':'0');ls.set('br',br?'1':'0');gOn=$('#gon').checked;ls.set('pe',pe?'1':'0');ls.set('gon',gOn?'1':'0');gtp=$('#gtp').value.trim();ak=$('#ak').value.trim();cm=$('#cm').value.trim()||'claude-haiku-5-5';gp=$('#gp').value;reg=$('#reg').value;ls.set('ak',ak);ls.set('cm',cm);ls.set('gp',gp);ls.set('reg',reg);ls.set('gmode',$('#gmode').value);ls.set('gcl',$('#gcl').value.trim());hy=$('#hy').value==='1';ls.set('hy',hy?'1':'0');oaK=$('#oak').value.trim();oaU=$('#oau').value.trim()||'https://api.openai.com/v1';oaM=$('#oam').value.trim();ls.set('oak',oaK);ls.set('oau',oaU);ls.set('oam',oaM);
+  gk=$('#gk').value.trim();gm=$('#gm').value.trim()||'gemini-2.5-flash';pe=$('#pe').checked;noEn=$('#ne').checked;ls.set('ne',noEn?'1':'0');qUntil=0;ls.set('qu','0');bo=$('#bo').checked;br=$('#br').checked;ls.set('bo',bo?'1':'0');ls.set('br',br?'1':'0');gOn=$('#gon').checked;ls.set('pe',pe?'1':'0');ls.set('gon',gOn?'1':'0');gtp=$('#gtp').value.trim();ak=$('#ak').value.trim();cm=$('#cm').value.trim()||'claude-haiku-5-5';gp=$('#gp').value;reg=$('#reg').value;ls.set('ak',ak);ls.set('cm',cm);ls.set('gp',gp);ls.set('reg',reg);ls.set('gmode',$('#gmode').value);ls.set('gcl',$('#gcl').value.trim());cust=$('#cust').value;ls.set('cust',cust);hyPct=+$('#hyp').value;ls.set('hyp',String(hyPct));glu=$('#glu').value.trim();ls.set('glu',glu);ls.set('gscope',$('#gscope').value);hy=$('#hy').value==='1';ls.set('hy',hy?'1':'0');oaK=$('#oak').value.trim();oaU=$('#oau').value.trim()||'https://api.openai.com/v1';oaM=$('#oam').value.trim();ls.set('oak',oaK);ls.set('oau',oaU);ls.set('oam',oaM);
   saveGl();ls.set('gk',gk);ls.set('gm2',gm);ls.set('gtp',gtp);
   sheet.style.display='none';toast(llmOn()?'সেভ হয়েছে, AI চালু':'সেভ হয়েছে');
   if(book){vc();if(auto)translateAll()}
@@ -966,5 +1143,6 @@ $('#bGl').onclick=()=>{
 if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register('sw2.js',{scope:'./v2.html'}).catch(()=>{});
 try{navigator.storage&&navigator.storage.persist&&navigator.storage.persist()}catch(e){}
 showLib();
+if(glu&&navigator.onLine&&Date.now()-glt>7*864e5)loadGloss(glu).then(r=>{if(r.add||r.upd)toast('অনলাইন শব্দকোষ হালনাগাদ: '+r.add+'টি নতুন',4000)}).catch(()=>{});
 </script>
 </body></html>
